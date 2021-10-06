@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="css/splide-skyblue.min.css">
+    <link href="css/styles.css" rel="stylesheet" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Le Jeux Studio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />        
+
+        <script>
+            function validateUser() {
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+                if ((username === "hao" && password === "12345") || 
+                username === "huama" && password === "12345") {
+                    window.location.href = "./dashboards/ProfitCalculatorYZwxsUz6edRM79Gtglsc9gGN8UgwiSvGxzETauepn7fLlgTAnA.html";
+                } else {
+                    window.stop();
+                    alert("Incorrect username or password");
+                }
+            }
+        </script>
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Le Jeux Studio Employee</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-secondary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="./index.html">Back</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-secondary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Heading-->
+                <h4 class="text-uppercase mb-0">Le Jeux Studio Employee Login Page</h4>
+                <!-- Masthead Subheading-->       
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="username" class="form-control" id="username" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label class="form-check-label"><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="validateUser()">Sign in</button>
+            </div>
+        </header>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-6 mb-6 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Minato-ku
+                            <br />
+                            Tokyo, Japan
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-6 mb-6 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Social Media</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Le Jeux Studio 2021</small></div>
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        
+    </body>
+</html>
